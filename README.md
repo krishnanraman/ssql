@@ -6,10 +6,11 @@ ssql is an unforgiving vso ( verb, subject, object ) dialect of Scalding.
 Use case: Nonprogrammers, Managers, Non-scala-programmers who are interested in Scalding
 ```
 Usage: scala ssql yourscript
-```text
-Result: yourscript.scala created!
-Then ? scald.rb --local yourscript.scala
 
+Result: yourscript.scala created!
+
+Then ? scald.rb --local yourscript.scala
+```text
 Legit ssql verbs: open, save, rows, columns, column
 
 Example Script: Type this in a text file named "somescript"
