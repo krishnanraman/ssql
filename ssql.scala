@@ -41,7 +41,7 @@ object ssql {
     "columntype" -> columntype _
   )
 
-  var columncount = 3
+  var columncount = 0
   val columns = ListBuffer[(Int, String, String)]()
   val sb = new StringBuilder
 
