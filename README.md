@@ -1,5 +1,3 @@
-ssql
-====
 ```text
 simple scalding query language
 
@@ -31,6 +29,7 @@ save file2.txt
 
 scala ssql somescript
 somescript.scala created!
+somescript.scala looks like this - 
 ```
 ```scala
 import com.twitter.scalding._
