@@ -1,13 +1,14 @@
 ssql
 ====
-
+```text
 simple scalding query language
 
 ssql is an unforgiving vso ( verb, subject, object ) dialect of Scalding.
 
 Use case: Nonprogrammers, Managers, Non-scala-programmers who are interested in Scalding
-
+```
 Usage: scala ssql yourscript
+```text
 Result: yourscript.scala created!
 Then ? scald.rb --local yourscript.scala
 
@@ -30,8 +31,8 @@ save file2.txt
 
 scala ssql somescript
 somescript.scala created!
-
-----somescript.scala -----
+```
+```scala
 import com.twitter.scalding._
 class somescript(args : Args) extends Job(args){
   val employees = 
@@ -58,7 +59,8 @@ class somescript(args : Args) extends Job(args){
     .discard('income)
     .write(Tsv("file2.txt"))
 }
--------------------
+```
+```text
 
 Given file1.txt
 ---
@@ -80,7 +82,7 @@ sam	165500.0
 pascal	136201.6
 ford	60700.0
 ---
-
+```
 
 
 
